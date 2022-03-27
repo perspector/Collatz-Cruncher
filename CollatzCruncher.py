@@ -28,8 +28,6 @@ def find(pattern, path):
 	return result
 
 
-# cwd = '/media/pythoncoder8888/ToshibaEXT/CollatzConjecture'
-# data_filename = 'collatz_data_TEST.txt'
 data_filename = find('collatz_*-*.txt', str(os.getcwd()+'/data/'))
 log_filename = 'collatz_log.txt'
 
@@ -113,8 +111,6 @@ This will limit memory usage and file size.
 			del data_list
 	
 	lastfilename = find('collatz_*-*.txt', str(os.getcwd()+'/data/'))
-	print("lastfilename: " + str(lastfilename))
-	print("lastfilename[-1]: " + str(lastfilename[-1]))
 	prev = numlines
 	maximum = power
 	num_lines_left_prev_file = maximum - prev
