@@ -2,7 +2,7 @@
 A program to test billions of numbers in an effort to find a number that disproves the Collatz Conjecture.
 
 ## Installing
-`git clone https://github.com/pythoncoder8888/Collatz-Cruncher.git`
+`git clone https://github.com/perspector/Collatz-Cruncher.git`
 
 ## Running
 `python3 CollatzCruncher.py`
