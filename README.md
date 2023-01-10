@@ -17,3 +17,7 @@ The installer script (`install.py`) will automatically install dependencies `tqd
 If your computer crashes, the program is killed, or becomes unresponsive, or you run out of RAM:
 -  Change `power` variable in CollatzCruncher.py to something smaller (determines the amount of numbers that will be calculated at once)
 -  Change `cooldown` variable in CollatzCruncher.py to something larger (determines the amount of time between calculating sets of numbers)
+
+
+## Credits
+Inspiration from [Veritasium: The Simplest Math Problem No One Can Solve - Collatz](https://www.youtube.com/watch?v=094y1Z2wpJg)
